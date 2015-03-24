@@ -12,7 +12,7 @@
                              [credentials :as creds])))
 
 (defroutes app-routes
-  (GET "/" [] "Hello World")
+  (GET "/" [] "ThePhoeron.com")
   (route/not-found "Not Found"))
 
 (defn -main []
