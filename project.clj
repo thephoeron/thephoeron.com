@@ -1,6 +1,6 @@
 (defproject thephoeron_dot_com "0.1.0-SNAPSHOT"
   :description "thephoeron.com: official website of the Phoeron"
-  :url "http://thephoeron.com/y"
+  :url "http://thephoeron.com/"
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-2322"]
