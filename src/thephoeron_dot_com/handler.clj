@@ -30,7 +30,8 @@
   (html5
    [:html {:lang "en"}
     [:head
-     [:title "//thephoeron.com/"]]
+     [:title "//thephoeron.com/"]
+     [:script (str analytics)]]
     [:body
      [:h2 {:align "center"} "//thephoeron.com/"]]]))
 
