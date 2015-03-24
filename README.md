@@ -1,6 +1,6 @@
 # thephoeron_dot_com
 
-FIXME
+Official Website of The Phoeron
 
 ## Prerequisites
 
@@ -12,8 +12,8 @@ You will need [Leiningen][] 2.0.0 or above installed.
 
 To start a web server for the application, run:
 
-    lein ring server
+    lein run
 
 ## License
 
-Copyright © 2015 FIXME
+Copyright © 2015 "the Phoeron" Colin J.E. Lupton
