@@ -1,11 +1,19 @@
 (ns thephoeron-dot-com.handler
-  (:require [compojure.core :refer :all]
+  (:use org.httpkit.server
+        hiccup.core
+        hiccup.page)
+  (:require [ring.middleware.reload :as reload]
+            [compojure.core :refer :all]
+            [compojure.handler :as handler]
             [compojure.route :as route]
-            [ring.middleware.defaults :refer [wrap-defaults site-defaults]]))
+            [cheshire.core :refer :all]
+            [cemerick.friend :as friend]
+            (cemerick.friend [workflows :as workflows]
+                             [credentials :as creds])))
 
 (defroutes app-routes
   (GET "/" [] "Hello World")
   (route/not-found "Not Found"))
 
-(def app
-  (wrap-defaults app-routes site-defaults))
+(defn -main []
+  (run-server (reload/wrap-reload (handler/site #'app-routes)) {:port 8080}))
