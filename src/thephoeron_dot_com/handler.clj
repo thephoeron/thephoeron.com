@@ -31,6 +31,7 @@
    [:html {:lang "en"}
     [:head
      [:title "//thephoeron.com/"]
+     [:meta {:name "google-site-verification" :content "Mf7fBrgJF0NG9VHWGpDrtDXJntkz7HdvXjO_41AS0d8"}]
      (include-css "//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"
                   "//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css"
                   "/static/main.css")
