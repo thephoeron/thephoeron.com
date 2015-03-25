@@ -40,7 +40,7 @@
       [:span#helper]
       [:div#img
        [:img {:src "/static/thephoeron-logo-2015.png" :alt "//thephoeron.com/"}]
-       [:p {:style "font-size: 14px;"}
+       [:p {:style "font-size: 14px; visibility: hidden;"}
         "[ "
         [:a#dialog {:href "#"} "Quantum Computing"] " | "
         [:a#dialog {:href "#"} "Physics"] " | "
@@ -53,7 +53,8 @@
         [:a#dialog {:href "#"} "Impressum"]
         " ]"]
        [:p {:style "font-size: 12px;"}
-        "Copyright &copy; 2004&ndash;2015,\"the Phoeron\" Colin J.E. Lupton. All Rights Reserved."]]]
+        "Copyright &copy; 2004&ndash;2015,\"the Phoeron\" Colin J.E. Lupton. All Rights Reserved. Powered by "
+        [:a {:href "http://clojure.org" :target "_blank"} "Clojure"] "."]]]
      (include-js "//code.jquery.com/jquery-1.11.0.min.js"
                  "//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"
                  "/static/main.js")]]))
