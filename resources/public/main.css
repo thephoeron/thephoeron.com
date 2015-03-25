@@ -30,6 +30,7 @@ body {
 
 #splash #img p {
     color: red;
+    font-family: monospace;
 }
 
 #splash #img p a,

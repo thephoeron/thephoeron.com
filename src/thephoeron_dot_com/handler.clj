@@ -39,18 +39,21 @@
      [:div#splash
       [:span#helper]
       [:div#img
-       [:img {:src "/static/thephoeron-logo-2015.png"}]
-       [:p
+       [:img {:src "/static/thephoeron-logo-2015.png" :alt "//thephoeron.com/"}]
+       [:p {:style "font-size: 14px;"}
         "[ "
+        [:a#dialog {:href "#"} "Quantum Computing"] " | "
+        [:a#dialog {:href "#"} "Physics"] " | "
         [:a#dialog {:href "#"} "Programming"] " | "
+        [:a#dialog {:href "#"} "Linguistics"] " | "
+        [:a#dialog {:href "#"} "Philosophy"] " | "
         [:a#dialog {:href "#"} "Music"] " | "
         [:a#dialog {:href "#"} "Art"] " | "
-        [:a#dialog {:href "#"} "Writing"] " | "
-        [:a#dialog {:href "#"} "Linguistics"] " | "
-        [:a#dialog {:href "#"} "Papers"] " | "
+        [:a#dialog {:href "#"} "Sci-Fi"] " | "
         [:a#dialog {:href "#"} "Impressum"]
         " ]"]
-       [:p "Copyright &copy; 2004&ndash;2015,\"the Phoeron\" Colin J.E. Lupton. All Rights Reserved."]]]
+       [:p {:style "font-size: 12px;"}
+        "Copyright &copy; 2004&ndash;2015,\"the Phoeron\" Colin J.E. Lupton. All Rights Reserved."]]]
      (include-js "//code.jquery.com/jquery-1.11.0.min.js"
                  "//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"
                  "/static/main.js")]]))
