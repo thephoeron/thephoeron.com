@@ -55,7 +55,8 @@
         " ]"]
        [:p {:style "font-size: 12px;"}
         "Copyright &copy; 2004&ndash;2015,\"the Phoeron\" Colin J.E. Lupton. All Rights Reserved. Powered by "
-        [:a {:href "http://clojure.org" :target "_blank"} "Clojure"] "."]]]
+        [:a {:href "http://clojure.org" :target "_blank"} "Clojure"] " and "
+        [:a {:href "https://www.digitalocean.com/?refcode=ef3cf1ffcbb7" :target "_blank"} "Digital Ocean"] "."]]]
      (include-js "//code.jquery.com/jquery-1.11.0.min.js"
                  "//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"
                  "/static/main.js")]]))
