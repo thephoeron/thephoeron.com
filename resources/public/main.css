@@ -1,1 +1,45 @@
-body {}
+body {
+    background-color: black;
+    color: silver;
+}
+
+#splash {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#splash #img {
+    margin: auto 0;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 920px;
+    max-height: 180px;
+}
+
+#splash #img p {
+    color: red;
+}
+
+#splash #img p a,
+#splash #img p a:visited {
+    color: #990000;
+    text-decoration: none;
+}
+
+#splash #img p a:hover,
+#splash #img p a:active {
+    color: red;
+    text-decoration: underline;
+}
