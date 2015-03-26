@@ -41,7 +41,7 @@
       [:span#helper]
       [:div#img
        [:img {:src "/static/thephoeron-logo-2015.png" :alt "//thephoeron.com/"}]
-       [:p {:style "font-size: 14px; visibility: hidden;"}
+       [:p {:style "font-size: 14px;"}
         "[ "
         [:a#dialog {:href "#"} "Quantum Computing"] " | "
         [:a#dialog {:href "#"} "Physics"] " | "
