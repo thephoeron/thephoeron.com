@@ -9,7 +9,8 @@
             [cheshire.core :refer :all]
             [cemerick.friend :as friend]
             (cemerick.friend [workflows :as workflows]
-                             [credentials :as creds])))
+                             [credentials :as creds])
+            [thephoeron-dot-com.resources :as res]))
 
 (def analytics "
 
@@ -62,7 +63,7 @@
                  "/static/main.js")]]))
 
 (defroutes app-routes
-  (GET "/" [req] (splash req))
+  (GET "/" [req] (res/splash req))
   (GET "/quantum-computing" [] "Quantum Computing")
   (GET "/physics" [] "Theoretical Physics")
   (GET "/programming" [] "Programming and Computer Science")
