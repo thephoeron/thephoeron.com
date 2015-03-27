@@ -4,7 +4,7 @@
         hiccup.form
         hiccup.page
         hiccup.util)
-  (:require [thephoeron_dot_com.templates :as tmpl]))
+  (:require [thephoeron-dot-com.templates :as tmpl]))
 
 (defn splash "//thephoeron.com/ splash page"
   [req]
