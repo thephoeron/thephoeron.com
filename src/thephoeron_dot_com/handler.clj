@@ -64,7 +64,7 @@
 
 (defroutes app-routes
   (GET "/" [req] (res/splash req))
-  (GET "/quantum-computing" [] "Quantum Computing")
+  (GET "/quantum-computing" [req] (res/quantum-computing req))
   (GET "/physics" [] "Theoretical Physics")
   (GET "/programming" [] "Programming and Computer Science")
   (GET "/linguistics" [] "Linguistics and Languages")
