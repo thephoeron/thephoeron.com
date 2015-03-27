@@ -9,7 +9,8 @@
 (def quotes [{:quote "Of all that is written, I love only what a man has written with his blood.  Write with blood and you will find that blood is spirit." :author "Friedrich Nietzsche" :source "Thus Spake Zarathustra"}
              {:quote "Fear is the mind-killer." :author "Frank Herbert" :source "Dune"}
              {:quote "Still he'd see the matrix in his sleep, bright lattices of logic unfolding across that colorless void..." :author "William Gibson" :source "Neuromancer"}
-             {:quote "Magic is dangerous or it is nothing." :author "William S. Burroughs" :source "Between Spaces"}])
+             {:quote "Magic is dangerous or it is nothing." :author "William S. Burroughs" :source "Between Spaces"}
+             {:quote "Free will is a golden thread running through the frozen matrix of fixed events." :author "Robert A. Heinlein" :source "The Rolling Stones"}])
 
 (defn random-quote "Get a pseudo-random quote from QUOTES and render as HTML."
   []
