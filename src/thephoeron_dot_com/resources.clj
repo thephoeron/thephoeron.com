@@ -21,21 +21,21 @@
   [req]
   (tmpl/default-page req {:title "Physics"}
     (html5
-     [:h2 {:align "center"} "Physics"]
+     [:h2 {:align "center"} "Theoretical Physics"]
      [:p.lead "?"])))
 
 (defn programming "//thephoeron.com/ programming page"
   [req]
   (tmpl/default-page req {:title "Programming"}
     (html5
-     [:h2 {:align "center"} "Programming"]
+     [:h2 {:align "center"} "Programming &amp; Computer Science"]
      [:p.lead "?"])))
 
 (defn linguistics "//thephoeron.com/ linguistics page"
   [req]
   (tmpl/default-page req {:title "Linguistics"}
     (html5
-     [:h2 {:align "center"} "Linguistics"]
+     [:h2 {:align "center"} "Languages &amp; Linguistics"]
      [:p.lead "?"])))
 
 (defn philosophy "//thephoeron.com/ philosophy page"
@@ -63,7 +63,7 @@
   [req]
   (tmpl/default-page req {:title "Sci-Fi"}
     (html5
-     [:h2 {:align "center"} "Sci-Fi"]
+     [:h2 {:align "center"} "Science-Fiction"]
      [:p.lead "?"])))
 
 (defn impressum "//thephoeron.com/ impressum page"
