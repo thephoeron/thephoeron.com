@@ -6,9 +6,27 @@
         hiccup.util)
   (:require [thephoeron-dot-com.templates :as tmpl]))
 
+(def quotes [{:quote "Of all that is written, I love only what a man has written with his blood.  Write with blood and you will find that blood is spirit." :author "Friedrich Nietzsche" :source "Thus Spake Zarathustra"}
+             {:quote "Fear is the mind-killer." :author "Frank Herbert" :source "Dune"}
+             {:quote "Still he'd see the matrix in his sleep, bright lattices of logic unfolding across that colorless void..." :author "William Gibson" :source "Neuromancer"}
+             {:quote "Magic is dangerous or it is nothing." :author "William S. Burroughs" :source "Between Spaces"}])
+
+(defn random-quote "Get a pseudo-random quote from QUOTES and render as HTML."
+  []
+  (let [q (rand-nth quotes)]
+    (html5
+     [:blockquote [:p (str (:quote q))]
+      [:footer
+       (if (:source q)
+         (html5
+          (:author q) ", "
+          [:em (str (:source q) ".")])
+         (html5 (:author q)))]])))
+
 (defn splash "//thephoeron.com/ splash page"
   [req]
-  (tmpl/default-page req {:title "Home"}))
+  (tmpl/default-page req {:title "Home"}
+    (random-quote)))
 
 (defn quantum-computing "//thephoeron.com/ quantum computing page"
   [req]

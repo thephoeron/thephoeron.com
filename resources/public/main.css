@@ -44,3 +44,7 @@ body {
     color: red;
     text-decoration: underline;
 }
+
+#splash blockquote {
+    border: 0 transparent solid;
+}
