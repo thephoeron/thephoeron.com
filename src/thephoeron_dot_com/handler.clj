@@ -22,7 +22,7 @@
   (GET "/music" [req] (res/music req))
   (GET "/art" [req] (res/art req))
   (GET "/sci-fi" [req] (res/sci-fi req))
-  (GET "/impressum" [req] (res/impressum))
+  (GET "/impressum" [req] (res/impressum req))
   (route/resources "/static")
   (route/not-found "Not Found"))
 
