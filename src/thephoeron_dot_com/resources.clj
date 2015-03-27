@@ -33,60 +33,65 @@
   (tmpl/default-page req {:title "Quantum Computing"}
     (html5
      [:h2 {:align "center"} "Quantum Computing"]
-     [:p.lead "?"])))
+     [:p.lead "Returning Soon"])))
 
 (defn physics "//thephoeron.com/ physics page"
   [req]
   (tmpl/default-page req {:title "Physics"}
     (html5
      [:h2 {:align "center"} "Theoretical Physics"]
-     [:p.lead "?"])))
+     [:p.lead "Returning Soon"])))
 
 (defn programming "//thephoeron.com/ programming page"
   [req]
   (tmpl/default-page req {:title "Programming"}
     (html5
      [:h2 {:align "center"} "Programming &amp; Computer Science"]
-     [:p.lead "?"])))
+     [:p.lead
+      "Learn Lisp The Hard Way" [:br]
+      [:small [:a {:href "http://learnlispthehardway.org" :target "_blank"} "learnlispthehardway.org"]]]
+     [:p.lead
+      "Comp-Sci Cabal" [:br]
+      [:small [:a {:href "http://cscabal.com" :target "_blank"} "cscabal.com"]]])))
 
 (defn linguistics "//thephoeron.com/ linguistics page"
   [req]
   (tmpl/default-page req {:title "Linguistics"}
     (html5
      [:h2 {:align "center"} "Languages &amp; Linguistics"]
-     [:p.lead "?"])))
+     [:p.lead "Returning Soon"])))
 
 (defn philosophy "//thephoeron.com/ philosophy page"
   [req]
   (tmpl/default-page req {:title "Philosophy"}
     (html5
      [:h2 {:align "center"} "Philosophy"]
-     [:p.lead "?"])))
+     [:p.lead "Returning Soon"])))
 
 (defn music "//thephoeron.com/ music page"
   [req]
   (tmpl/default-page req {:title "Music"}
     (html5
-     [:h2 {:align "center"} "Music"]
-     [:p.lead "?"])))
+     [:h2 {:align "center"} "Music / Discography"]
+     [:p.lead "Returning Soon"])))
 
 (defn art "//thephoeron.com/ art page"
   [req]
   (tmpl/default-page req {:title "Art"}
     (html5
-     [:h2 {:align "center"} "Art"]
-     [:p.lead "?"])))
+     [:h2 {:align "center"} "Art: Paintings &amp; Illustrations"]
+     [:p.lead "Returning Soon"])))
 
 (defn sci-fi "//thephoeron.com/ sci-fi page"
   [req]
   (tmpl/default-page req {:title "Sci-Fi"}
     (html5
      [:h2 {:align "center"} "Science-Fiction"]
-     [:p.lead "?"])))
+     [:p.lead "Returning Soon"])))
 
 (defn impressum "//thephoeron.com/ impressum page"
   [req]
   (tmpl/default-page req {:title "Impressum"}
     (html5
      [:h2 {:align "center"} "Impressum"]
-     [:p.lead "?"])))
+     [:p.lead "Returning Soon"])))
