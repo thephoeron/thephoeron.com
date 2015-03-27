@@ -12,7 +12,7 @@
   [])
 
 (defmacro page "Page template"
-  [body]
+  [req {:keys [title]} & body]
   `(html5
     ~(header)
     ~(menu)
