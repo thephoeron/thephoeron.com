@@ -27,33 +27,38 @@
      [:div#splash
       [:span#helper]
       [:div#img
-       [:img {:src "/static/thephoeron-logo-2015.png" :alt "//thephoeron.com/"}]
-       [:p {:style "font-size: 14px;"}
-        "[ "
-        [:a#dialog {:href "/quantum-computing"} "Quantum Computing"] " | "
-        [:a#dialog {:href "/physics"} "Physics"] " | "
-        [:a#dialog {:href "/programming"} "Programming"] " | "
-        [:a#dialog {:href "/linguistics"} "Linguistics"] " | "
-        [:a#dialog {:href "/philosophy"} "Philosophy"] " | "
-        [:a#dialog {:href "/music"} "Music"] " | "
-        [:a#dialog {:href "/art"} "Art"] " | "
-        [:a#dialog {:href "/sci-fi"} "Sci-Fi"] " | "
-        [:a#dialog {:href "/impressum"} "Impressum"]
-        " ]"]
-       [:p {:style "font-size: 12px;"}
-        "Copyright &copy; 2004&ndash;2015,\"the Phoeron\" Colin J.E. Lupton. All Rights Reserved. Powered by "
-        [:a {:href "http://clojure.org" :target "_blank"} "Clojure"] " and "
-        [:a {:href "https://www.digitalocean.com/?refcode=ef3cf1ffcbb7" :target "_blank"} "Digital Ocean"] "."]]]
+       ]]
      ]]))
 
 (defn header "Page header template"
-  [])
+  []
+  (html5
+   [:a {:href "/"}
+    [:img {:src "/static/thephoeron-logo-2015.png" :alt "//thephoeron.com/"}]]))
 
 (defn footer "Page footer template"
-  [])
+  []
+  (html5
+   [:p#footer {:style "font-size: 12px;"}
+        "Copyright &copy; 2004&ndash;2015,\"the Phoeron\" Colin J.E. Lupton. All Rights Reserved. Powered by "
+        [:a {:href "http://clojure.org" :target "_blank"} "Clojure"] " and "
+        [:a {:href "https://www.digitalocean.com/?refcode=ef3cf1ffcbb7" :target "_blank"} "Digital Ocean"] "."]))
 
 (defn menu "Page menu template"
-  [])
+  []
+  (html5
+   [:p#site-menu {:style "font-size: 14px;"}
+    "[ "
+    [:a {:href "/quantum-computing"} "Quantum Computing"] " | "
+    [:a {:href "/physics"} "Physics"] " | "
+    [:a {:href "/programming"} "Programming"] " | "
+    [:a {:href "/linguistics"} "Linguistics"] " | "
+    [:a {:href "/philosophy"} "Philosophy"] " | "
+    [:a {:href "/music"} "Music"] " | "
+    [:a {:href "/art"} "Art"] " | "
+    [:a {:href "/sci-fi"} "Sci-Fi"] " | "
+    [:a {:href "/impressum"} "Impressum"]
+    " ]"]))
 
 (defmacro default-page "Page template"
   [req {:keys [title]} & body]
@@ -67,10 +72,13 @@
                   "/static/main.css")
      [:script (str analytics)]]
     [:body
-     ~(header)
-     ~(menu)
-     ~@body
-     ~(footer)
+     [:div#splash
+      [:span#helper]
+      [:div#img
+       ~(header)
+       ~(menu)
+       ~@body
+       ~(footer)]]
      (include-js "//code.jquery.com/jquery-1.11.0.min.js"
                  "//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"
                  "/static/main.js")]))
