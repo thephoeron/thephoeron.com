@@ -22,11 +22,7 @@
    [:html {:lang "en"}
     [:head
      [:title "//thephoeron.com/"]
-     [:meta {:name "google-site-verification" :content "Mf7fBrgJF0NG9VHWGpDrtDXJntkz7HdvXjO_41AS0d8"}]
-     (include-css "//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"
-                  "//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css"
-                  "/static/main.css")
-     [:script (str analytics)]]
+     ]
     [:body
      [:div#splash
       [:span#helper]
@@ -48,9 +44,7 @@
         "Copyright &copy; 2004&ndash;2015,\"the Phoeron\" Colin J.E. Lupton. All Rights Reserved. Powered by "
         [:a {:href "http://clojure.org" :target "_blank"} "Clojure"] " and "
         [:a {:href "https://www.digitalocean.com/?refcode=ef3cf1ffcbb7" :target "_blank"} "Digital Ocean"] "."]]]
-     (include-js "//code.jquery.com/jquery-1.11.0.min.js"
-                 "//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"
-                 "/static/main.js")]]))
+     ]]))
 
 (defn header "Page header template"
   [])
@@ -63,9 +57,20 @@
 
 (defmacro default-page "Page template"
   [req {:keys [title]} & body]
-  `(html5 {:lang "en"}
+  `(html5
+    {:lang "en"}
+    [:head
+     [:title (str ~title " :: //thephoeron.com/")]
+     [:meta {:name "google-site-verification" :content "Mf7fBrgJF0NG9VHWGpDrtDXJntkz7HdvXjO_41AS0d8"}]
+     (include-css "//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"
+                  "//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css"
+                  "/static/main.css")
+     [:script (str analytics)]]
     [:body
      ~(header)
      ~(menu)
      ~@body
-     ~(footer)]))
+     ~(footer)
+     (include-js "//code.jquery.com/jquery-1.11.0.min.js"
+                 "//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"
+                 "/static/main.js")]))
