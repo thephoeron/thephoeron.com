@@ -25,7 +25,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     max-width: 920px;
-    max-height: 180px;
+    max-height: 100%;
 }
 
 #splash #img p {
