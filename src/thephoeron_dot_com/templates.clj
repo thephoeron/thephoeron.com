@@ -16,20 +16,6 @@
 
 ")
 
-(defn splash "//thephoeron.com/ splash page"
-  [req]
-  (html5
-   [:html {:lang "en"}
-    [:head
-     [:title "//thephoeron.com/"]
-     ]
-    [:body
-     [:div#splash
-      [:span#helper]
-      [:div#img
-       ]]
-     ]]))
-
 (defn header "Page header template"
   []
   (html5
