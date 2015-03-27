@@ -5,3 +5,13 @@
         hiccup.page
         hiccup.util)
   (:require [thephoeron_dot_com.templates :as tmpl]))
+
+(defn splash "//thephoeron.com/ splash page"
+  [req]
+  (tmpl/default-page {:title "Home"}))
+
+(defn quantum-computing "//thephoeron.com/ quantum computing page"
+  [req]
+  (tmpl/default-page {:title "Quantum Computing"}
+    (html5
+     [:h2 {:align "center"} "Quantum Computing"])))
