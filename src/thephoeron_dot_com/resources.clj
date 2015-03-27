@@ -8,10 +8,10 @@
 
 (defn splash "//thephoeron.com/ splash page"
   [req]
-  (tmpl/default-page {:title "Home"}))
+  (tmpl/default-page req {:title "Home"}))
 
 (defn quantum-computing "//thephoeron.com/ quantum computing page"
   [req]
-  (tmpl/default-page {:title "Quantum Computing"}
+  (tmpl/default-page req {:title "Quantum Computing"}
     (html5
      [:h2 {:align "center"} "Quantum Computing"])))
