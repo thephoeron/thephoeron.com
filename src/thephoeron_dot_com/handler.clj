@@ -43,15 +43,15 @@
        [:img {:src "/static/thephoeron-logo-2015.png" :alt "//thephoeron.com/"}]
        [:p {:style "font-size: 14px;"}
         "[ "
-        [:a#dialog {:href "#"} "Quantum Computing"] " | "
-        [:a#dialog {:href "#"} "Physics"] " | "
-        [:a#dialog {:href "#"} "Programming"] " | "
-        [:a#dialog {:href "#"} "Linguistics"] " | "
-        [:a#dialog {:href "#"} "Philosophy"] " | "
-        [:a#dialog {:href "#"} "Music"] " | "
-        [:a#dialog {:href "#"} "Art"] " | "
-        [:a#dialog {:href "#"} "Sci-Fi"] " | "
-        [:a#dialog {:href "#"} "Impressum"]
+        [:a#dialog {:href "/quantum-computing"} "Quantum Computing"] " | "
+        [:a#dialog {:href "/physics"} "Physics"] " | "
+        [:a#dialog {:href "/programming"} "Programming"] " | "
+        [:a#dialog {:href "/linguistics"} "Linguistics"] " | "
+        [:a#dialog {:href "/philosophy"} "Philosophy"] " | "
+        [:a#dialog {:href "/music"} "Music"] " | "
+        [:a#dialog {:href "/art"} "Art"] " | "
+        [:a#dialog {:href "/sci-fi"} "Sci-Fi"] " | "
+        [:a#dialog {:href "/impressum"} "Impressum"]
         " ]"]
        [:p {:style "font-size: 12px;"}
         "Copyright &copy; 2004&ndash;2015,\"the Phoeron\" Colin J.E. Lupton. All Rights Reserved. Powered by "
