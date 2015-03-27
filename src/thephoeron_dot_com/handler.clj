@@ -63,6 +63,15 @@
 
 (defroutes app-routes
   (GET "/" [req] (splash req))
+  (GET "/quantum-computing" [] "Quantum Computing")
+  (GET "/physics" [] "Theoretical Physics")
+  (GET "/programming" [] "Programming and Computer Science")
+  (GET "/linguistics" [] "Linguistics and Languages")
+  (GET "/philosophy" [] "Philosophy")
+  (GET "/music" [] "Music")
+  (GET "/art" [] "Art")
+  (GET "/sci-fi" [] "Science-Fiction")
+  (GET "/impressum" [] "Impressum")
   (route/resources "/static")
   (route/not-found "Not Found"))
 
