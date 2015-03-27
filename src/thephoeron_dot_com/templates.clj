@@ -11,7 +11,7 @@
 (defn menu "Page menu template"
   [])
 
-(defmacro page "Page template"
+(defmacro default-page "Page template"
   [req {:keys [title]} & body]
   `(html5
     ~(header)
