@@ -102,8 +102,8 @@
           [:span {:aria-hidden "true"} "&times;"]]
          [:h4#phoeronitic-modal-label.modal-title "Grammar of Phoeronitic"]]
         [:div.modal-body
-         [:p.lead "The Phoeronitic Con-Lang is an attempt at producing a strict, lexically defined universal language with a unified syntax and semantics.  It includes three modes of speech."]
-         [:p "Unlike other human languages, it has been designed from the ground up to support deductive reasoning, quantitative analysis, formal logic, pithiness, and precision, allowing it to serve equally well for conversation, literature, formal proof, and computer programming."]
+         [:p.lead "The Phoeronitic Con-Lang is an attempt at producing a strict, lexically defined universal language with a unified syntax and semantics.  It includes three modes of speech and an agglutinative root-based morphology."]
+         [:p "Unlike other human languages, it has been designed from the ground up to be concise and precise, and supports deductive reasoning, quantitative analysis, and formal logic, allowing it to serve equally well for conversation, literature, quantitative and qualitative proofs, and computer programming."]
          [:p "The bulk of the work on the Phoeronitic Con-Lang was completed from 2007&ndash;2009."]]
         [:div.modal-footer
          [:button.btn.btn-danger {:type "button" :data-dismiss "modal"} "Close"]]]]])))
