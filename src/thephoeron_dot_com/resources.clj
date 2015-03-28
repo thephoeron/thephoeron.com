@@ -63,7 +63,13 @@
   (tmpl/default-page req {:title "Linguistics"}
     (html5
      [:h2 {:align "center"} "Languages &amp; Linguistics"]
-     [:p.lead "Returning Soon"])))
+     [:p.lead "Con-Langs:" [:br]
+      [:small {:style "color: #777;"}
+       "Grammar of Phoeronitic (returning soon)"] [:br]]
+     [:p.lead "Ancient Language Resources:" [:br]
+      [:small {:style "color: #777;"}
+       "Sumerian" [:br]
+       "Akkadian" [:br]]])))
 
 (defn philosophy "//thephoeron.com/ philosophy page"
   [req]
