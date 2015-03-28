@@ -44,7 +44,10 @@
   (tmpl/default-page req {:title "Physics"}
     (html5
      [:h2 {:align "center"} "Theoretical Physics"]
-     [:p.lead "Returning Soon"])))
+     [:p.lead "Resources:" [:br]
+      [:small {:style "color: #777;"}
+       "M-Theory" [:br]
+       "Quantum Mechanics" [:br]]])))
 
 (defn programming "//thephoeron.com/ programming page"
   [req]
