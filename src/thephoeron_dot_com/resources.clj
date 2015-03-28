@@ -34,7 +34,10 @@
   (tmpl/default-page req {:title "Quantum Computing"}
     (html5
      [:h2 {:align "center"} "Quantum Computing"]
-     [:p.lead "Returning Soon"])))
+     [:p.lead "Resources:" [:br]
+      [:small
+       [:a {:href "http://www.mathstat.dal.ca/~selinger/quipper/" :target "_blank"} "Quipper Quantum Programming Language"] [:br]
+       [:a {:href "http://www.mathstat.dal.ca/~selinger/papers/" :target "_blank"} "Papers by Peter Selinger (incl., Quantum Lambda Calculus)"] [:br]]])))
 
 (defn physics "//thephoeron.com/ physics page"
   [req]
