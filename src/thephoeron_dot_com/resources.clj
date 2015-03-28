@@ -104,7 +104,8 @@
   (tmpl/default-page req {:title "Music"}
     (html5
      [:h2 {:align "center"} "Music / Discography"]
-     [:p.lead "Returning Soon"])))
+     [:p.lead "Albums"]
+     [:p.lead "Compilations"])))
 
 (defn art "//thephoeron.com/ art page"
   [req]
