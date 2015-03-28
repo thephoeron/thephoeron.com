@@ -129,4 +129,12 @@
   (tmpl/default-page req {:title "Impressum"}
     (html5
      [:h2 {:align "center"} "Impressum"]
-     [:p.lead "Returning Soon"])))
+     [:p.lead "\"the Phoeron\" Colin J.E. Lupton"]
+     [:p "Contact: " [:a {:href "mailto:sysop@thephoeron.com"} "sysop@thephoeron.com"]]
+     [:p "Social Media: "
+      [:a {:href "http://github.com/thephoeron" :target "_blank"} "GitHub"] ", "
+      [:a {:href "http://twitter.com/thephoeron" :target "_blank"} "Twitter"] ", "
+      [:a {:href "http://facebook.com/thephoerondotcom" :target "_blank"} "Facebook"] ", "
+      [:a {:href "http://thephoeron.wordpress.com" :target "_blank"} "Art &amp; Philosophy Blog"] ", "
+      [:a {:href "http://cjelupton.wordpress.com" :target "_blank"} "Developer Blog"] [:br]]
+     [:p "&nbsp;"])))
