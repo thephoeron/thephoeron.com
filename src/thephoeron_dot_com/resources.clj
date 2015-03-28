@@ -131,6 +131,7 @@
      [:h2 {:align "center"} "Impressum"]
      [:p.lead "\"the Phoeron\" Colin J.E. Lupton"]
      [:p "Contact: " [:a {:href "mailto:sysop@thephoeron.com"} "sysop@thephoeron.com"]]
+     [:p "IRC: " [:strong "ThePhoeron"] " on freenode #lisp #clojure #haskell"]
      [:p "Social Media: "
       [:a {:href "http://github.com/thephoeron" :target "_blank"} "GitHub"] ", "
       [:a {:href "http://twitter.com/thephoeron" :target "_blank"} "Twitter"] ", "
