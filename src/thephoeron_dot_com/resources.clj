@@ -112,7 +112,9 @@
   (tmpl/default-page req {:title "Art"}
     (html5
      [:h2 {:align "center"} "Art: Paintings &amp; Illustrations"]
-     [:p.lead "Returning Soon"])))
+     [:p.lead "Paintings"]
+     [:p.lead "Illustrations"]
+     [:p.lead "Calligraphy"])))
 
 (defn sci-fi "//thephoeron.com/ sci-fi page"
   [req]
