@@ -93,7 +93,11 @@
   (tmpl/default-page req {:title "Philosophy"}
     (html5
      [:h2 {:align "center"} "Philosophy"]
-     [:p.lead "Returning Soon"])))
+     [:p.lead "Neuro-Occultism"]
+     [:p.lead "Phoeronism"]
+     [:p.lead "Existential Nihilism"]
+     [:p.lead "Crypto-Anarchy"]
+     [:p.lead "The Hacker Ethos"])))
 
 (defn music "//thephoeron.com/ music page"
   [req]
