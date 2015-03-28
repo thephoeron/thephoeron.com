@@ -65,11 +65,23 @@
      [:h2 {:align "center"} "Languages &amp; Linguistics"]
      [:p.lead "Con-Langs:" [:br]
       [:small {:style "color: #777;"}
-       "Grammar of Phoeronitic (returning soon)"] [:br]]
+       [:a {:href "#" :data-toggle "modal" :data-target "#phoeronitic-modal"} "Grammar of Phoeronitic"] "(Returning Soon)"
+       [:br]]]
      [:p.lead "Ancient Language Resources:" [:br]
       [:small {:style "color: #777;"}
        "Sumerian" [:br]
-       "Akkadian" [:br]]])))
+       "Akkadian" [:br]]]
+     [:div#phoeronitic-modal.modal.fade {:tabindex "-1" :role "dialog" :aria-labelledby "phoeronitic-modal-label" :aria-hidden "true"}
+      [:div.modal-dialog
+       [:div.modal-content
+        [:div.modal-header
+         [:button.close {:type "button" :data-dismiss "modal" :aria-label "Close"}
+          [:span {:aria-hidden "true"} "&times;"]]
+         [:h4#phoeronitic-modal-label.modal-title "Grammar of Phoeronitic"]]
+        [:div.modal-body
+         [:p.lead "The Phoeronitic Con-Lang is an attempt at producing a strict, lexically defined universal language with a unified syntax and semantics.  It includes three modes of speech."]]
+        [:div.modal-footer
+         [:button.btn.btn-danger {:type "button" :data-dismiss "modal"} "Close"]]]]])))
 
 (defn philosophy "//thephoeron.com/ philosophy page"
   [req]
