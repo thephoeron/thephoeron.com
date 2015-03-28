@@ -121,7 +121,8 @@
   (tmpl/default-page req {:title "Sci-Fi"}
     (html5
      [:h2 {:align "center"} "Science-Fiction"]
-     [:p.lead "Returning Soon"])))
+     [:p.lead "Novels"]
+     [:p.lead "Graphic Novels"])))
 
 (defn impressum "//thephoeron.com/ impressum page"
   [req]
