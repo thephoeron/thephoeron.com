@@ -34,6 +34,17 @@
   (tmpl/default-page req {:title "Quantum Computing"}
     (html5
      [:h2 {:align "center"} "Quantum Computing"]
+     [:p.lead "Quantum Hardware Designs:" [:br]
+      [:small {:style "color: #777;"}
+       "The VoRTeX Platform optical gate-model quantum computer" [:br]
+       "The Philosopher's Stone optical&ndash;lattice quantum computer" [:br]
+       "The Decoherence Machine" [:br]
+       ]]
+     [:p.lead "Quantum Computer Programming and Software Libraries:" [:br]
+      [:small {:style "color: #777;"}
+       "BRAKET/Φ, a Quantum/Classical Universal Computing Language:" [:br] [:a {:href "http://braket-phi.org/" :target "_blank"} "braket-phi.org"] [:br]
+       "BLACK-STONE, specification and implementation of Quantum Common Lisp:" [:br] [:a {:href "http://github.com/thephoeron/black-stone" :target "_blank"} "github.com/thephoeron/black-stone"] [:br]
+       "SILVER-SWORD, a Common Lisp interface to D-Wave's Python Pack:" [:br] [:a {:href "http://github.com/thephoeron/silver-sword" :target "_blank"} "github.com/thephoeron/silver-sword" [:br]]]]
      [:p.lead "Resources:" [:br]
       [:small
        [:a {:href "http://www.mathstat.dal.ca/~selinger/quipper/" :target "_blank"} "Quipper Quantum Programming Language"] [:br]
