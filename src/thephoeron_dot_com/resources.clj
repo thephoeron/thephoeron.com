@@ -36,9 +36,9 @@
      [:h2 {:align "center"} "Quantum Computing"]
      [:p.lead "Quantum Hardware Designs:" [:br]
       [:small {:style "color: #777;"}
-       "The VoRTeX Platform optical gate-model quantum computer" [:br]
-       "The Philosopher's Stone optical&ndash;lattice quantum computer" [:br]
-       "The Decoherence Machine" [:br]
+       "The VoRTeX Platform optical gate-model quantum computer (patents pending)" [:br]
+       "The Philosopher's Stone optical&ndash;lattice quantum computer (patents pending)" [:br]
+       "The Decoherence Machine (patents pending)" [:br]
        ]]
      [:p.lead "Quantum Computer Programming and Software Libraries:" [:br]
       [:small {:style "color: #777;"}
