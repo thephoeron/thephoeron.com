@@ -48,3 +48,24 @@ body {
 #splash blockquote {
     border: 0 transparent solid;
 }
+
+.modal-header {
+    color: red;
+    font-family: monospace;
+}
+
+.modal-header .close {
+    color: red;
+}
+
+.modal-content {
+    background-color: black;
+    color: #777;
+    border: 1px solid #777;
+}
+
+.modal-content p,
+.modal-content p.lead {
+    color: #777 !important;
+    text-align: left;
+}
