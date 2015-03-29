@@ -26,9 +26,10 @@
   []
   (html5
    [:p#footer {:style "font-size: 12px;"}
-        "Copyright &copy; 2004&ndash;2015,\"the Phoeron\" Colin J.E. Lupton. All Rights Reserved. Powered by "
-        [:a {:href "http://clojure.org" :target "_blank"} "Clojure"] " and "
-        [:a {:href "https://www.digitalocean.com/?refcode=ef3cf1ffcbb7" :target "_blank"} "Digital Ocean"] "."]))
+    "Copyright &copy; 2004&ndash;2015,\"the Phoeron\" Colin J.E. Lupton. All Rights Reserved. Powered by "
+    [:a {:href "http://clojure.org" :target "_blank"} "Clojure"] ", "
+    [:a {:href "http://overtone.github.io/emacs-live/" :target "_blank"} "Emacs Live"] " and "
+    [:a {:href "https://www.digitalocean.com/?refcode=ef3cf1ffcbb7" :target "_blank"} "Digital Ocean"] "."]))
 
 (defn menu "Page menu template"
   []
