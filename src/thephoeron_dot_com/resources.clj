@@ -125,12 +125,36 @@
     (html5
      [:h2 {:align "center"} "Music / Discography"]
      [:p.lead "Albums"]
-     [:p "DTRASH113.3 &mdash; Subjective Variables (2012)"]
-     [:p "DTRASH113.2 &mdash; BLUTGEIST: Symphony No. 2 (2008)"]
-     [:p "DTRASH113.1 &mdash; Universal Equation (2008)"]
-     [:p "DTRASH082 &mdash; l'Ambiençe: Symphony No. 1 (2006)"]
-     [:p "DTRASH075 &mdash; The Church of the Phoeron of Latter-day Satanists (2005)"]
-     [:p "DTRASH060 &mdash; The ABSU Meditations (2004)"]
+     [:p "DTRASH113.3 &mdash; Subjective Variables (2012)" [:br]
+      [:span {:style "color: #777;"} "Available on: "]
+      [:a {:href "https://d-trashrecords.bandcamp.com/album/dtrash1133-subjective-variables" :target "_blank"} "Bandcamp"] ", "
+      [:a {:href "https://itunes.apple.com/ca/album/subjective-variables/id795199434" :target "_blank"} "iTunes"] ", "
+      [:a {:href "http://www.amazon.com/gp/product/B00HZNLIXI/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00HZNLIXI&linkCode=as2&tag=thephoeroncom-20&linkId=PLBDEI4V77ACZLE3" :target "_blank"} "Amazon"] "."]
+     [:p "DTRASH113.2 &mdash; BLUTGEIST: Symphony No. 2 (2008)" [:br]
+      [:span {:style "color: #777;"} "Available on: "]
+      [:a {:href "https://d-trashrecords.bandcamp.com/album/dtrash1132-blutgeist-symphony-no-2" :target "_blank"} "Bandcamp"] ", "
+      [:a {:href "https://itunes.apple.com/ca/album/blutgeist-symphony-no.-2/id298634632" :target "_blank"} "iTunes"] ", "
+      [:a {:href "http://www.amazon.com/gp/product/B001N9QDY4/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001N9QDY4&linkCode=as2&tag=thephoeroncom-20&linkId=RR4OFMKG3V73JQA4" :target "_blank"} "Amazon"] "."]
+     [:p "DTRASH113.1 &mdash; Universal Equation (2008)" [:br]
+      [:span {:style "color: #777;"} "Available on: "]
+      [:a {:href "https://d-trashrecords.bandcamp.com/album/dtrash1131-universal-equation" :target "_blank"} "Bandcamp"] ", "
+      [:a {:href "https://itunes.apple.com/ca/album/universal-equation/id298634396" :target "_blank"} "iTunes"] ", "
+      [:a {:href "http://www.amazon.com/gp/product/B001N9CP00/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001N9CP00&linkCode=as2&tag=thephoeroncom-20&linkId=OKWZO2D5ZQKYJOLP" :target "_blank"} "Amazon"] "."]
+     [:p "DTRASH082 &mdash; l'Ambiençe: Symphony No. 1 (2006)" [:br]
+      [:span {:style "color: #777;"} "Available on: "]
+      [:a {:href "https://d-trashrecords.bandcamp.com/album/dtrash082-lambient-ep" :target "_blank"} "Bandcamp"] ", "
+      [:a {:href "https://itunes.apple.com/ca/album/lambience-symphony-no.-1/id289406045" :target "_blank"} "iTunes"] ", "
+      [:a {:href "http://www.amazon.com/gp/product/B001GMK1IC/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001GMK1IC&linkCode=as2&tag=thephoeroncom-20&linkId=JXPDP7A2XWGOEEOL" :target "_blank"} "Amazon"] "."]
+     [:p "DTRASH075 &mdash; The Church of the Phoeron of Latter-day Satanists (2005)" [:br]
+      [:span {:style "color: #777;"} "Available on: "]
+      [:a {:href "https://d-trashrecords.bandcamp.com/album/dtrash075-the-church-of-the-phoeron-of-the-latter-day-satanists" :target "_blank"} "Bandcamp"] ", "
+      [:a {:href "https://itunes.apple.com/ca/album/church-phoeron-latter-day/id289428020" :target "_blank"} "iTunes"] ", "
+      [:a {:href "http://www.amazon.com/gp/product/B001GL2GEK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001GL2GEK&linkCode=as2&tag=thephoeroncom-20&linkId=4CBP2CCRQZRBOOES" :target "_blank"} "Amazon"] "."]
+     [:p "DTRASH060 &mdash; The ABSU Meditations (2004)" [:br]
+      [:span {:style "color: #777;"} "Available on: "]
+      [:a {:href "https://d-trashrecords.bandcamp.com/album/dtrash060-the-absu-meditations" :target "_blank"} "Bandcamp"] ", "
+      [:a {:href "https://itunes.apple.com/ca/album/the-absu-meditations/id263633477" :target "_blank"} "iTunes"] ", "
+      [:a {:href "http://www.amazon.com/gp/product/B000WKWNFS/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000WKWNFS&linkCode=as2&tag=thephoeroncom-20&linkId=ISM6YL4327X7ISS3" :target "_blank"} "Amazon"] "."]
      [:p "&nbsp;"]
      [:p.lead "Compilations"]
      [:p "DTRASH200 &mdash; Trash the World (2015)" [:br]
