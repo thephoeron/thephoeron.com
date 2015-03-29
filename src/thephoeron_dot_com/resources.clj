@@ -58,7 +58,7 @@
       [:span {:style "color: #777;"} "An embedded language for quantum computer programming, implemented in Haskell."] [:br]
       [:a {:href "http://www.mathstat.dal.ca/~selinger/quipper/" :target "_blank"} "www.mathstat.dal.ca/~selinger/quipper"]]
      [:p "Papers by Peter Selinger:" [:br]
-      [:span {:style "color: #777;"} "Academic papers primarily concerned with quantum computing, the quantum lambda calculus, and the quipper quantum programming language."] [:br]
+      [:span {:style "color: #777;"} "Academic papers primarily concerned with quantum computing, the quantum lambda calculus, and the quipper quantum programming language. Many require strong background in Category Theory, Type Theory, the Typed Lambda Calculus, Intuitionist Linear Logic, the Haskell programming language, Quantum Mechanics, and Dirac Notation."] [:br]
       [:a {:href "http://www.mathstat.dal.ca/~selinger/papers/" :target "_blank"} "www.mathstat.dal.ca/~selinger/papers"]]
      [:p "&nbsp;"])))
 
