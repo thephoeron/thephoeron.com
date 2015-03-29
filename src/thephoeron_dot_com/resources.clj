@@ -67,14 +67,20 @@
   (tmpl/default-page req {:title "Physics"}
     (html5
      [:h2 {:align "center"} "Physics"]
-     [:p.lead "Research and Projects:" [:br]
-      [:small {:style "color: #777;"}
-       "The Singularity Equation" [:br]
-       "Producing Neutron-Degenerate Matter" [:br]
-       "Quantum Properties of Optical Metamaterials" [:br]
-       "Photonic Crystals" [:br]
-       "Fusion and Fusors" [:br]
-       "Home-made Particle Accelators" [:br]]]
+     [:p.lead "Research and Projects:"]
+     [:p "The Singularity Equation" [:br]
+      [:span {:style "color: #777;"} "The production of artificial singularities from arbitrary mass, and efficient production of artificial singularities as an energy source."]]
+     [:p "Neutron-Degenerate Matter" [:br]
+      [:span {:style "color: #777;"} "The production, handling, potential applications, and equations of state of neutron-degenerate matter, " [:em "a.k.a., "] "degenerate neutronium."]]
+     [:p "Quantum Properties of Optical Metamaterials and Photonic Crystals" [:br]
+      [:span {:style "color: #777;"} "Manipulating observables in photonic qubits with optical metamaterials and photonic crystals."]]
+     [:p "Plasma Physics" [:br]
+      [:span {:style "color: #777;"} "Plasma-based atomic batteries."]]
+     [:p "Fusion and Fusors" [:br]
+      [:span {:style "color: #777;"} "Magnetically-confined fusion, fusors, and novel reactor designs for safe, clean nuclear energy."]]
+     [:p "Home-made Particle Accelerators" [:br]
+      [:span {:style "color: #777;"} "Instructions and safety procedures for the construction and use of home-made particle accelerators."]]
+     [:p "&nbsp;"]
      [:p.lead "Resources:" [:br]
       [:small {:style "color: #777;"}
        "M-Theory" [:br]
