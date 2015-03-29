@@ -133,7 +133,10 @@
      [:p "DTRASH060 &mdash; The ABSU Meditations (2004)"]
      [:p "&nbsp;"]
      [:p.lead "Compilations"]
-     [:p "DTRASH200 &mdash; Trash the World (2015)"]
+     [:p "DTRASH200 &mdash; Trash the World (2015)" [:br]
+      [:span {:style "color: #777;"} "Available on: "]
+      [:a {:href "https://d-trashrecords.bandcamp.com/album/dtrash200-trash-the-world" :target "_blank"} "Bandcamp"] ", "
+      [:a {:href "http://www.amazon.com/gp/product/B00TLQLD0A/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00TLQLD0A&linkCode=as2&tag=thephoeroncom-20&linkId=OYFA4E7LE6EV5J36" :target "_blank"} "Amazon"] "."]
      [:p "DTECH07 &mdash; The Virus Has Been Spread (2007)" [:br]
       [:span {:style "color: #777;"} "Available on: "]
       [:a {:href "https://d-trashrecords.bandcamp.com/album/dtech07-the-virus-has-been-spread" :target "_blank"} "Bandcamp"] ", "
