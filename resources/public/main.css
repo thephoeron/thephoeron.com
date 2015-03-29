@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: #777;
+    font-family: monospace;
 }
 
 #splash {
@@ -47,6 +48,10 @@ body {
 
 #splash blockquote {
     border: 0 transparent solid;
+}
+
+#splash blockquote footer {
+    font-family: monospace;
 }
 
 .modal-header {
