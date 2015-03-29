@@ -42,15 +42,25 @@
      [:p "The Decoherence Machine (patents pending): " [:br]
       [:span {:style "color: #777;"} "Experimental Field-Distortion Lattice-Machine with Observable Quantum Effects."]]
      [:p "&nbsp;"]
-     [:p.lead "Quantum Computer Programming and Software Libraries:" [:br]
-      [:small {:style "color: #777;"}
-       "BRAKET/Φ, a Quantum/Classical Universal Computing Language:" [:br] [:a {:href "http://braket-phi.org/" :target "_blank"} "braket-phi.org"] [:br]
-       "BLACK-STONE, specification and implementation of Quantum Common Lisp:" [:br] [:a {:href "http://github.com/thephoeron/black-stone" :target "_blank"} "github.com/thephoeron/black-stone"] [:br]
-       "SILVER-SWORD, a Common Lisp interface to D-Wave's Python Pack:" [:br] [:a {:href "http://github.com/thephoeron/silver-sword" :target "_blank"} "github.com/thephoeron/silver-sword" [:br]]]]
-     [:p.lead "Resources:" [:br]
-      [:small
-       [:a {:href "http://www.mathstat.dal.ca/~selinger/quipper/" :target "_blank"} "Quipper Quantum Programming Language"] [:br]
-       [:a {:href "http://www.mathstat.dal.ca/~selinger/papers/" :target "_blank"} "Papers by Peter Selinger (incl., Quantum Lambda Calculus)"] [:br]]])))
+     [:p.lead "Quantum Computer Programming and Software Libraries:"]
+     [:p "BRAKET/Φ:" [:br]
+      [:span {:style "color: #777;"} "A Quantum/Classical Universal Computing Language based on the scoped φ-calculus."] [:br]
+      [:a {:href "http://braket-phi.org/" :target "_blank"} "braket-phi.org"]]
+     [:p "BLACK-STONE:" [:br]
+      [:span {:style "color: #777;"} "Specification and Implementation of Quantum Common Lisp."] [:br]
+      [:a {:href "http://github.com/thephoeron/black-stone" :target "_blank"} "github.com/thephoeron/black-stone"]]
+     [:p "SILVER-SWORD:" [:br]
+      [:span {:style "color: #777;"} "A Common Lisp interface to D-Wave's Python Pack and Adiabatic Quantum Computer simulator."] [:br]
+      [:a {:href "http://github.com/thephoeron/silver-sword" :target "_blank"} "github.com/thephoeron/silver-sword"]]
+     [:p "&nbsp;"]
+     [:p.lead "Resources:"]
+     [:p "Quipper Quantum Programming Language:" [:br]
+      [:span {:style "color: #777;"} "An embedded language for quantum computer programming, implemented in Haskell."] [:br]
+      [:a {:href "http://www.mathstat.dal.ca/~selinger/quipper/" :target "_blank"} "www.mathstat.dal.ca/~selinger/quipper"]]
+     [:p "Papers by Peter Selinger:" [:br]
+      [:span {:style "color: #777;"} "Academic papers primarily concerned with quantum computing, the quantum lambda calculus, and the quipper quantum programming language."] [:br]
+      [:a {:href "http://www.mathstat.dal.ca/~selinger/papers/" :target "_blank"} "www.mathstat.dal.ca/~selinger/papers"]]
+     [:p "&nbsp;"])))
 
 (defn physics "//thephoeron.com/ physics page"
   [req]
