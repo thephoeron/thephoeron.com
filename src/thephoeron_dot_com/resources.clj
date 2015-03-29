@@ -134,7 +134,11 @@
      [:p "&nbsp;"]
      [:p.lead "Compilations"]
      [:p "DTRASH200 &mdash; Trash the World (2015)"]
-     [:p "DTECH07 &mdash; The Virus Has Been Spread (2007)"]
+     [:p "DTECH07 &mdash; The Virus Has Been Spread (2007)" [:br]
+      [:span {:style "color: #777;"} "Available on: "]
+      [:a {:href "https://d-trashrecords.bandcamp.com/album/dtech07-the-virus-has-been-spread" :target "_blank"} "Bandcamp"] ", "
+      [:a {:href "https://itunes.apple.com/ca/album/virus-has-been-spread-tribute/id261180829" :target "_blank"} "iTunes"] ", "
+      [:a {:href "http://www.amazon.com/gp/product/B000WKPH4M/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000WKPH4M&linkCode=as2&tag=thephoeroncom-20&linkId=F2TTHUSR7JYAZOP2" :target "_blank"} "Amazon"] "."]
      [:p "&nbsp;"])))
 
 (defn art "//thephoeron.com/ art page"
