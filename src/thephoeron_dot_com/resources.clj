@@ -125,7 +125,17 @@
     (html5
      [:h2 {:align "center"} "Music / Discography"]
      [:p.lead "Albums"]
-     [:p.lead "Compilations"])))
+     [:p "DTRASH113.3 &mdash; Subjective Variables (2012)"]
+     [:p "DTRASH113.2 &mdash; BLUTGEIST: Symphony No. 2 (2008)"]
+     [:p "DTRASH113.1 &mdash; Universal Equation (2008)"]
+     [:p "DTRASH082 &mdash; l'Ambiençe: Symphony No. 1 (2006)"]
+     [:p "DTRASH075 &mdash; The Church of the Phoeron of Latter-day Satanists (2005)"]
+     [:p "DTRASH060 &mdash; The ABSU Meditations (2004)"]
+     [:p "&nbsp;"]
+     [:p.lead "Compilations"]
+     [:p "DTRASH200 &mdash; Trash the World (2015)"]
+     [:p "DTECH07 &mdash; The Virus Has Been Spread (2007)"]
+     [:p "&nbsp;"])))
 
 (defn art "//thephoeron.com/ art page"
   [req]
