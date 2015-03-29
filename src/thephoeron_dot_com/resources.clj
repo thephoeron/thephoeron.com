@@ -34,12 +34,14 @@
   (tmpl/default-page req {:title "Quantum Computing"}
     (html5
      [:h2 {:align "center"} "Quantum Computing"]
-     [:p.lead "Quantum Hardware Designs:" [:br]
-      [:small {:style "color: #777;"}
-       "The VoRTeX Platform optical gate-model quantum computer (patents pending)" [:br]
-       "The Philosopher's Stone optical&ndash;lattice quantum computer (patents pending)" [:br]
-       "The Decoherence Machine (patents pending)" [:br]
-       ]]
+     [:p.lead "Quantum Hardware Designs:"]
+     [:p "The VoRTeX Platform (patents pending): " [:br]
+      [:span {:style "color: #777;"} "Optical Gate-Model End-User Hybrid Quantum/Classical Computer."]]
+     [:p "The Philosopher's Stone (patents pending): " [:br]
+      [:span {:style "color: #777;"} "Optical&ndash;Lattice experimental Quantum Computer."]]
+     [:p "The Decoherence Machine (patents pending): " [:br]
+      [:span {:style "color: #777;"} "Experimental Field-Distortion Lattice-Machine with Observable Quantum Effects."]]
+     [:p "&nbsp;"]
      [:p.lead "Quantum Computer Programming and Software Libraries:" [:br]
       [:small {:style "color: #777;"}
        "BRAKET/Φ, a Quantum/Classical Universal Computing Language:" [:br] [:a {:href "http://braket-phi.org/" :target "_blank"} "braket-phi.org"] [:br]
