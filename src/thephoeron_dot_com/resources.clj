@@ -65,7 +65,7 @@
        [:a {:href "http://www.amazon.com/gp/product/052187534X/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=052187534X&linkCode=as2&tag=thephoeroncom-20&linkId=47M34V2W4JDQU6WS" :target "_blank"}
         [:img.img-thumbnail {:src "http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=052187534X&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=thephoeroncom-20" :border "0"}]]]]
      [:p "&nbsp;"]
-     [:p.lead "Resources:"]
+     [:p.lead "Additional Resources:"]
      [:p "Quipper Quantum Programming Language:" [:br]
       [:span {:style "color: #777;"} "An embedded language for quantum computer programming, implemented in Haskell."] [:br]
       [:a {:href "http://www.mathstat.dal.ca/~selinger/quipper/" :target "_blank"} "www.mathstat.dal.ca/~selinger/quipper"]]
