@@ -53,6 +53,18 @@
       [:span {:style "color: #777;"} "A Common Lisp interface to D-Wave's Python Pack and Adiabatic Quantum Computer simulator."] [:br]
       [:a {:href "http://github.com/thephoeron/silver-sword" :target "_blank"} "github.com/thephoeron/silver-sword"]]
      [:p "&nbsp;"]
+     [:p.lead "Essential Reading:"]
+     [:div.row
+      [:div.col-sm-4
+       [:a {:href "http://www.amazon.com/gp/product/0262028395/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0262028395&linkCode=as2&tag=thephoeroncom-20&linkId=GLZ4KQ3B74I4XKAE" :target "_blank"}
+        [:img.img-thumbnail {:src "http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0262028395&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=thephoeroncom-20" :border "0" }]]]
+      [:div.col-sm-4
+       [:a {:href "http://www.amazon.com/gp/product/1107014468/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1107014468&linkCode=as2&tag=thephoeroncom-20&linkId=EWWHCU75Z43TP5FB" :target "_blank"}
+        [:img.img-thumbnail {:src "http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1107014468&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=thephoeroncom-20" :border "0"}]]]
+      [:div.col-sm-4
+       [:a {:href "http://www.amazon.com/gp/product/052187534X/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=052187534X&linkCode=as2&tag=thephoeroncom-20&linkId=47M34V2W4JDQU6WS" :target "_blank"}
+        [:img.img-thumbnail {:src "http://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=052187534X&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=thephoeroncom-20" :border "0"}]]]]
+     [:p "&nbsp;"]
      [:p.lead "Resources:"]
      [:p "Quipper Quantum Programming Language:" [:br]
       [:span {:style "color: #777;"} "An embedded language for quantum computer programming, implemented in Haskell."] [:br]
