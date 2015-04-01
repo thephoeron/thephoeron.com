@@ -93,11 +93,16 @@
      [:p "Home-made Particle Accelerators" [:br]
       [:span {:style "color: #777;"} "Instructions and safety procedures for the construction and use of home-made particle accelerators."]]
      [:p "&nbsp;"]
-     [:p.lead "Resources:" [:br]
-      [:small {:style "color: #777;"}
-       "M-Theory" [:br]
-       "Quantum Mechanics" [:br]
-       "Astrophysics" [:br]]])))
+     [:p.lead "Additional Resources:"]
+     [:p "M-Theory/String Theory"]
+     [:p "Quantum Mechanics"]
+     [:p "Astrophysics"]
+     [:p "Particle Physics"]
+     [:p "Field Dynamics"]
+     [:p "Quantum Optics"]
+     [:p "Plasmonics"]
+     [:p "Degenerate/Strange Matter"]
+     [:p "&nbsp;"])))
 
 (defn programming "//thephoeron.com/ programming page"
   [req]
