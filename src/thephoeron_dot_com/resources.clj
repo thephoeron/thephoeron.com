@@ -44,6 +44,8 @@
       [:span {:style "color: #777;"} "Experimental Field-Distortion Lattice-Machine with Observable Quantum Effects."]]
      [:p "&nbsp;"]
      [:p.lead "Quantum Computer Programming and Software Libraries:"]
+     [:p "φ-Calculus:" [:br]
+      [:span {:style "color: #777;"} "Universal and Scoped φ-Calculi, adapted quantum functional&ndash;process calculi for concurrent hybrid classical/quantum computation. The Scoped φ-Calculus extends the Universal with scoping rules to support an n-dimensional, programmable environment, for namespace, type, and temporal scoping, etc."]]
      [:p "BRAKET/Φ:" [:br]
       [:span {:style "color: #777;"} "A Quantum/Classical Universal Computing Language based on the scoped φ-calculus."] [:br]
       [:a {:href "http://braket-phi.org/" :target "_blank"} "braket-phi.org"]]
