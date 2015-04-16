@@ -153,6 +153,7 @@
      [:h2 {:align "center"} "Philosophy"]
      [:p.lead "Neuro-Occultism"]
      [:p.lead "Phoeronism"]
+     [:p.lead "Psychonautics &amp; Chaos Magick"]
      [:p.lead "Existential Nihilism"]
      [:p.lead "Crypto-Anarchy"]
      [:p.lead "The Hacker Ethos"])))
