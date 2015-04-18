@@ -14,10 +14,12 @@
                  [hiccup "1.0.5"]
                  [com.cemerick/friend "0.2.1"]
                  [jayq "2.5.2"]]
-  :main thephoeron-dot-com.handler
+  :main ^:skip-aot thephoeron-dot-com.handler
+  :target-path "target/%s"
   :plugins [[lein-cljsbuild "1.0.3"]]
   :profiles
-  {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
+  {:uberjar {:aot :all}
+   :dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                         [ring-mock "0.1.5"]]}}
   :cljsbuild {:builds [{:source-paths ["src-cljs"]
                         :compiler {:output-to "resources/public/main.js"
