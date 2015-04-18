@@ -27,4 +27,5 @@
   (route/not-found "Not Found"))
 
 (defn -main []
-  (run-server (reload/wrap-reload (handler/site #'app-routes)) {:port 8080}))
+  (run-server (reload/wrap-reload (handler/site #'app-routes)) {:port 8080})
+  (println "Server started on port 8080..."))
