@@ -2,7 +2,7 @@
   (:use org.httpkit.server
         hiccup.core
         hiccup.page)
-  (:require [ring.middleware.reload :as reload]
+  (:require ;[ring.middleware.reload :as reload]
             [compojure.core :refer :all]
             [compojure.handler :as handler]
             [compojure.route :as route]
@@ -23,9 +23,9 @@
   (GET "/art" [req] (res/art req))
   (GET "/sci-fi" [req] (res/sci-fi req))
   (GET "/impressum" [req] (res/impressum req))
-  (route/resources "/static")
+  ;(route/resources "/static")
   (route/not-found "Not Found"))
 
 (defn -main []
-  (run-server (reload/wrap-reload (handler/site #'app-routes)) {:port 8080})
+  (run-server (handler/site #'app-routes) {:port 8080})
   (println "Server started on port 8080..."))
