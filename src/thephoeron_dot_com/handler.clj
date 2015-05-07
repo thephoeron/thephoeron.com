@@ -2,8 +2,7 @@
   (:use org.httpkit.server
         hiccup.core
         hiccup.page)
-  (:require ;[ring.middleware.reload :as reload]
-            [compojure.core :refer :all]
+  (:require [compojure.core :refer :all]
             [compojure.handler :as handler]
             [compojure.route :as route]
             [cheshire.core :refer :all]
@@ -23,7 +22,6 @@
   (GET "/art" [req] (res/art req))
   (GET "/sci-fi" [req] (res/sci-fi req))
   (GET "/impressum" [req] (res/impressum req))
-  ;(route/resources "/static")
   (route/not-found "Not Found"))
 
 (defn -main []
