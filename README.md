@@ -1,4 +1,4 @@
-# //thephoeron.com/
+# //THEPHOERON.COM/
 
 Official Website of The Phoeron.
 
@@ -16,4 +16,4 @@ To start a web server for the application, run:
 
 ### License
 
-Copyright &copy; 2015, "the Phoeron" Colin J.E. Lupton.  This project has been released under the MIT License; please see `thephoeron.com/LICENSE` for more information.
+Copyright &copy; 2004&ndash;2015, "the Phoeron" Colin J.E. Lupton.  All rights reserved.  The source-code, but not the content, for this project has been released under the MIT License; please see `thephoeron.com/LICENSE` for more information.
